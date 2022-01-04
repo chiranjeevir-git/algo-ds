@@ -1,8 +1,4 @@
-package com.example.geektrust;
-
-import java.util.HashSet;
-import java.util.Stack;
-
+package com.codersbuffet.dsa;
 
 public class PermutationsOfAString {
 
@@ -28,7 +24,7 @@ public class PermutationsOfAString {
 
     public static void main(String[] args) {
 
-        String input = "abc";
+        String input = "abcdefgh";
         char[] charArray = input.toCharArray();
         permute(0, charArray);
 
